@@ -39,10 +39,11 @@ public class ThirdPersonMovement : MonoBehaviour
             
         }
 
-
         if (Input.GetKeyDown("space") && groundedPlayer)
         {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -7.0f * gravityValue);
+            playerVelocity.y = 0;
+
+            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
         }
 
         if (groundedPlayer == false)
@@ -50,6 +51,7 @@ public class ThirdPersonMovement : MonoBehaviour
             playerVelocity.y += gravityValue * Time.deltaTime;
             
         }
+
 
         controller.Move(playerVelocity * Time.deltaTime);
     }
