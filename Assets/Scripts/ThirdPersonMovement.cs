@@ -8,9 +8,12 @@ public class ThirdPersonMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Transform cam;
-
+    private bool groundedPlayer = true;
     public float speed = 6f;
-   
+    private float playerSpeed = 2.0f;
+    private float jumpHeight = 1.0f;
+    private float gravityValue = -9.81f;
+    private Vector3 playerVelocity;
 
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
@@ -18,6 +21,8 @@ public class ThirdPersonMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        groundedPlayer = controller.isGrounded;
+
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
@@ -33,5 +38,19 @@ public class ThirdPersonMovement : MonoBehaviour
 
             
         }
+
+
+        if (Input.GetKeyDown("space") && groundedPlayer)
+        {
+            playerVelocity.y += Mathf.Sqrt(jumpHeight * -7.0f * gravityValue);
+        }
+
+        if (groundedPlayer == false)
+        {
+            playerVelocity.y += gravityValue * Time.deltaTime;
+            
+        }
+
+        controller.Move(playerVelocity * Time.deltaTime);
     }
 }
