@@ -18,9 +18,19 @@ public class ThirdPersonMovement : MonoBehaviour
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
+    public Inventory inventory;
+
+    public HUD Hud;
     // Update is called once per frame
     void Update()
     {
+
+        //if (mItemToPickup != null && Input.GetKeyDown(KeyCode.E)) {
+        //    inventory.AddItem(mItemToPickup);
+        //    mItemToPickup.OnPickup();
+        //    Hud.CloseMessagePanel();
+
+        //}
         groundedPlayer = controller.isGrounded;
 
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -55,4 +65,35 @@ public class ThirdPersonMovement : MonoBehaviour
 
         controller.Move(playerVelocity * Time.deltaTime);
     }
-}
+    private void OnControllerColliderHit(ControllerColliderHit hit) {
+        IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        if (item != null)
+        {
+            inventory.AddItem(item);ECKeyXmlFormat
+                  
+        }
+
+        }
+        //private IInventoryItem mItemToPickup = null;
+        //private void OnTriggerEnter(Collider other) {
+        //    IInventoryItem item = other.GetComponent<IInventoryItem>();
+
+        //    if (item != null) {
+
+        //        Hud.OpenMessagePanel("");
+        //    }
+
+        //}
+
+        //private void OnTriggerExit(Collider other) {
+        //    IInventoryItem item = other.GetComponent<IInventoryItem>();
+
+        //    if (item != null)
+        //    {
+
+        //        Hud.CloseMessagePanel();
+        //        mItemToPickup = null;
+        //    }
+
+        //}
+    }
