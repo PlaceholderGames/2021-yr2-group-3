@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Security.Cryptography;
 using UnityEngine;
+
 
 public class ThirdPersonMovement : MonoBehaviour
 {
@@ -19,6 +21,7 @@ public class ThirdPersonMovement : MonoBehaviour
     float turnSmoothVelocity;
 
     public Inventory inventory;
+
 
     public HUD Hud;
     // Update is called once per frame
@@ -67,9 +70,10 @@ public class ThirdPersonMovement : MonoBehaviour
     }
     private void OnControllerColliderHit(ControllerColliderHit hit) {
         IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        
         if (item != null)
         {
-            inventory.AddItem(item);ECKeyXmlFormat
+            inventory.AddItem(item);
                   
         }
 

@@ -14,20 +14,22 @@ public class HUD : MonoBehaviour
     void Start()
     {
         Inventory.ItemAdded += InventoryScript_ItemAdded;
+
     }
 
     private void InventoryScript_ItemAdded(object sender, InventoryEventArgs e) {
 
-        Transform inventoryPanel = transform.Find("Inventorypanel");
+        Transform inventoryPanel = transform.Find("InventoryPanel");
         foreach (Transform slot in inventoryPanel) {
 
             //Border image
             Image image = slot.GetChild(0).GetChild(0).GetComponent<Image>();
 
+
             //We found the empty slot
             if (!image.enabled) {
                 image.enabled = true;
-                image.sprite = e.Item.Image;
+                image.sprite = e.Item.ItemImage;
 
                 break;
             }

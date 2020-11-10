@@ -2,28 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Key : MonoBehaviour , IInventoryItem
+public class Sphere : MonoBehaviour, IInventoryItem
 {
+    public string Name
+    {
 
-    public string Name {
-        get {
-            return "Key";
-
+        get
+        {
+            return "Sphere";
         }
     }
 
     public Sprite _ItemImage;
-
     public Sprite ItemImage
     {
-        get {
+
+        get
+        {
             return _ItemImage;
         }
-
     }
-
-    public void OnPickup() {
-
+    public void OnPickup()
+    {
         gameObject.SetActive(false);
     }
 }
+
