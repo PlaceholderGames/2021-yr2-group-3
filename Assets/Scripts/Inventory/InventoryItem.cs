@@ -8,10 +8,13 @@ public interface IInventoryItem {
     
     string Name { get; }
 
-    Sprite ItemImage { get; }
+    Sprite Image { get; }
 
     void OnPickup();
 
+    void OnDrop();
+
+    void OnUse();
 
 }
 
