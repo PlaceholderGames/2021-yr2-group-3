@@ -12,6 +12,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
     private bool groundedPlayer = true;
     public float speed = 6f;
+    public float pushPower = 2.0f; //push power for moving blocks
     private float playerSpeed = 2.0f;
     private float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
@@ -80,6 +81,27 @@ public class ThirdPersonMovement : MonoBehaviour
         }
 
     }
+
+    void OnControllerColliderHit (ControllerColliderHit hit) //Function for pushing objects
+    {
+        Rigidbody body = hit.collider.attachedRigidbody;
+
+        if (body == null || body.isKinematic) //Checking for rigidbodies
+        {
+            return;
+        }
+            
+        if (hit.moveDirection.y < -0.3f) //Preventing the objecting from being pushed downwards or upwards
+        {
+            return;
+        }
+
+        Vector3 pushDir = new Vector3(hit.moveDirection.x, 0, hit.moveDirection.z); //Calculating push direction from move direction
+
+        body.velocity = pushDir * pushPower; //Adding velocity to the pushed object
+
+    }
+
     // Update is called once per frame
     void Update()
     {
