@@ -2270,7 +2270,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444948953}
-  m_LocalRotation: {x: 0.23045409, y: 0.00000000582086, z: -0.0000000013785473, w: 0.9730832}
+  m_LocalRotation: {x: 0.23045407, y: 0.00000001514979, z: -0.0000000035879064, w: 0.9730832}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3497,7 +3497,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ff27ecebe3b8db749a7506c5977c2149, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.36225
+      value: 38.37
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff27ecebe3b8db749a7506c5977c2149, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3505,7 +3505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff27ecebe3b8db749a7506c5977c2149, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -34.935246
+      value: -34.81
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff27ecebe3b8db749a7506c5977c2149, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6616,7 +6616,7 @@ Camera:
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
+  m_FocalLength: 32.96973
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -6650,8 +6650,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.21900071, y: 0.000000019818557, z: -0.000000004448261, w: 0.9757247}
-  m_LocalPosition: {x: 39.36225, y: 12.118263, z: -42.91102}
+  m_LocalRotation: {x: 0.21900068, y: 0.000000012616545, z: -0.0000000028317741, w: 0.9757247}
+  m_LocalPosition: {x: 38.37, y: 12.118263, z: -42.785774}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12636,7 +12636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898370657}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.36225, y: 12.118263, z: -42.91102}
+  m_LocalPosition: {x: 38.37, y: 12.118263, z: -42.785774}
   m_LocalScale: {x: 1, y: 1, z: 0.42896}
   m_Children:
   - {fileID: 444948955}
