@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomOne_plateTwo : MonoBehaviour
+public class RoomOne_plateThree : MonoBehaviour
 {
     [SerializeField] //Keeps the variable private
     GameObject door;
@@ -13,7 +13,7 @@ public class RoomOne_plateTwo : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (isOpened == false && other.gameObject.name == "roomOne_blockTwo")
+        if (isOpened == false && other.gameObject.name == "roomOne_blockThree")
         {
             isPressed = true;
         }

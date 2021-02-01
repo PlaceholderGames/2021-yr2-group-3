@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class roomOne_plateOne : MonoBehaviour
+public class RoomOne_plateOne : MonoBehaviour
 {
     [SerializeField] //Keeps the variable private
     GameObject door;
@@ -20,4 +20,3 @@ public class roomOne_plateOne : MonoBehaviour
 
     }
 }
-
