@@ -6,13 +6,11 @@ using UnityEngine.UI;
 public class CollectableSystem : MonoBehaviour
 {
     public GameObject partsCollectedText;
-    public int partsAmount;
+    public static int partsAmount = 0;
 
-    void OnTriggerEnter(Collider other)
+    void Update()
     {
-
-        partsAmount += 1;
         partsCollectedText.GetComponent<Text>().text = "PARTS COLLECTED: " + partsAmount;
-        Destroy(gameObject);
+        DontDestroyOnLoad(transform.gameObject); //Objects persists on scene loading
     }
 }
