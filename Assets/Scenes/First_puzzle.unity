@@ -41356,7 +41356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1818970205}
-  isPressed: 1
+  isPressed: 0
 --- !u!65 &2003488518
 BoxCollider:
   m_ObjectHideFlags: 0

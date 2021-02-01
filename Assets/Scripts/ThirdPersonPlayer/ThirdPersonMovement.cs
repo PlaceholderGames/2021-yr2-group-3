@@ -146,6 +146,11 @@ public class ThirdPersonMovement : MonoBehaviour
 
 
         controller.Move(playerVelocity * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
     //private void OnControllerColliderHit(ControllerColliderHit hit)
     //{
