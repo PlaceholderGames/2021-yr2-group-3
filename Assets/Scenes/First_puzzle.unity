@@ -7558,7 +7558,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401686129}
-  m_LocalRotation: {x: 0.21900079, y: -0.000000015016258, z: 0.00000000337039, w: 0.9757247}
+  m_LocalRotation: {x: 0.21900079, y: 0.000000015016258, z: -0.00000000337039, w: 0.9757247}
   m_LocalPosition: {x: -116.195, y: 3.6922631, z: 121.34424}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -11470,7 +11470,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589536493}
-  m_LocalRotation: {x: 0.20176448, y: -0.000000018841684, z: 0.000000003881407, w: 0.9794341}
+  m_LocalRotation: {x: 0.20176448, y: 0.000000018841686, z: -0.0000000038814076, w: 0.9794341}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -19941,7 +19941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6d8f8ec9c5c6c64690a7e3d3c5373ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plateOne: {fileID: 1374103497}
+  plateOne: {fileID: 0}
   plateTwo: {fileID: 2003488517}
   plateThree: {fileID: 169115323}
 --- !u!1 &1024279466 stripped
