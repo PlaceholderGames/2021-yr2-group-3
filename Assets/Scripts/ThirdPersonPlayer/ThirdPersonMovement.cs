@@ -15,7 +15,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public float pushPower = 2.0f; //push power for moving blocks
     private float playerSpeed = 2.0f;
     private float jumpHeight = 3.0f;
-    private float gravityValue = -9.81f;
+    private float gravityValue = -29.81f;
     private Vector3 playerVelocity;
 
     public float turnSmoothTime = 0.1f;
