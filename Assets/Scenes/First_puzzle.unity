@@ -4551,6 +4551,7 @@ GameObject:
   - component: {fileID: 230130582}
   - component: {fileID: 230130581}
   - component: {fileID: 230130580}
+  - component: {fileID: 230130585}
   m_Layer: 0
   m_Name: Spaceship Part 9
   m_TagString: Untagged
@@ -4646,6 +4647,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 192
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &230130585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230130579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2808eec34be0bb5469f0385cc622a8ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &234291770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8055,7 +8068,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401686129}
-  m_LocalRotation: {x: 0.21900079, y: 0.000000015016258, z: -0.00000000337039, w: 0.9757247}
+  m_LocalRotation: {x: 0.21900079, y: -0.000000015016258, z: 0.00000000337039, w: 0.9757247}
   m_LocalPosition: {x: -116.195, y: 3.6922631, z: 121.34424}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -8679,6 +8692,7 @@ GameObject:
   - component: {fileID: 449713579}
   - component: {fileID: 449713578}
   - component: {fileID: 449713577}
+  - component: {fileID: 449713582}
   m_Layer: 0
   m_Name: Spaceship Part 6
   m_TagString: Untagged
@@ -8774,6 +8788,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 189
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &449713582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449713576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2808eec34be0bb5469f0385cc622a8ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &451206540
 GameObject:
   m_ObjectHideFlags: 0
@@ -12403,7 +12429,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589536493}
-  m_LocalRotation: {x: 0.20176448, y: 0.000000018841686, z: -0.0000000038814076, w: 0.9794341}
+  m_LocalRotation: {x: 0.20176448, y: -0.000000018841684, z: 0.000000003881407, w: 0.9794341}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -20952,6 +20978,7 @@ GameObject:
   - component: {fileID: 1012044787}
   - component: {fileID: 1012044786}
   - component: {fileID: 1012044785}
+  - component: {fileID: 1012044790}
   m_Layer: 0
   m_Name: Spaceship Part 7
   m_TagString: Untagged
@@ -21047,6 +21074,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 190
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1012044790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012044784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2808eec34be0bb5469f0385cc622a8ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1013808219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46195,6 +46234,7 @@ GameObject:
   - component: {fileID: 2058344716}
   - component: {fileID: 2058344715}
   - component: {fileID: 2058344714}
+  - component: {fileID: 2058344719}
   m_Layer: 0
   m_Name: Spaceship Part 8
   m_TagString: Untagged
@@ -46290,6 +46330,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 191
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2058344719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058344713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2808eec34be0bb5469f0385cc622a8ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2061838397
 PrefabInstance:
   m_ObjectHideFlags: 0
