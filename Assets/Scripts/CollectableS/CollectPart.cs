@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class CollectPart : MonoBehaviour
 {
+    public int collectableAmount = 1;
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        CollectableSystem.partsAmount += 1;
-        Destroy(gameObject);
+        if(other.gameObject.CompareTag("Player"))
+        {
+            CollectableSystem.instance.ChangeAmount(collectableAmount);
+        }
     }
 }
