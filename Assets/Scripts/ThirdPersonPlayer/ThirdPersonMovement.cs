@@ -67,6 +67,11 @@ public class ThirdPersonMovement : MonoBehaviour
             mItemToPickup = item;
         }
 
+        if(other.gameObject.CompareTag("Collectable"))
+        {
+            Destroy(other.gameObject);
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -152,6 +157,10 @@ public class ThirdPersonMovement : MonoBehaviour
             Application.Quit();
         }
     }
+
+
+
+
     //private void OnControllerColliderHit(ControllerColliderHit hit)
     //{
     //    IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
@@ -164,5 +173,5 @@ public class ThirdPersonMovement : MonoBehaviour
 
     //}
 
-   
+
 }

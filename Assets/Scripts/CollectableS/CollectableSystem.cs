@@ -5,12 +5,22 @@ using UnityEngine.UI;
 
 public class CollectableSystem : MonoBehaviour
 {
-    public GameObject partsCollectedText;
-    public static int partsAmount = 0;
+    public static CollectableSystem instance;
+    int collectableAmount;
+    public Text text;
 
-    void Update()
+    private void Start()
     {
-        partsCollectedText.GetComponent<Text>().text = "PARTS COLLECTED: " + partsAmount;
-        DontDestroyOnLoad(transform.gameObject); //Objects persists on scene loading
+        if(instance == null)
+        {
+            instance = this;
+        }
     }
+
+    public void ChangeAmount(int collectableValue)
+    {
+        collectableAmount += collectableValue;
+        text.text = "x" + collectableAmount.ToString();
+    }
+  
 }
