@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CollectableSystem : MonoBehaviour
+public class LevelOneCollectableSystem : MonoBehaviour
 {
-    public static CollectableSystem instance;
-    int collectableAmount;
+    public static LevelOneCollectableSystem instance;
+    public int collectableAmount;
     public Text text;
+    public bool collectedAll;
 
     private void Start()
     {
@@ -22,5 +23,14 @@ public class CollectableSystem : MonoBehaviour
         collectableAmount += collectableValue;
         text.text = "x" + collectableAmount.ToString();
     }
-  
+
+    public void Update()
+    {
+        if (collectableAmount == 5)
+        {
+            collectedAll = true;
+        }
+        else collectedAll = false;
+    }
+
 }
