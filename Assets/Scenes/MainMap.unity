@@ -2851,7 +2851,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58a2e1a434fb7af4bb6182584cc35e7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableAmount: 0
   text: {fileID: 1539333814}
+  collectedAll: 0
 --- !u!4 &87891301
 Transform:
   m_ObjectHideFlags: 0
@@ -13994,6 +13996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 2
+  collectableSystem: {fileID: 87891299}
 --- !u!65 &436393273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27080,7 +27083,6 @@ GameObject:
   - component: {fileID: 898186931}
   - component: {fileID: 898186930}
   - component: {fileID: 898186929}
-  - component: {fileID: 898186933}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -27169,18 +27171,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &898186933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898186928}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 827bcaba7a594264b97391ba662ff3eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &898554534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35081,7 +35071,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106624070}
-  m_LocalRotation: {x: 0.2562142, y: -0.000000028807525, z: 0.000000007635779, w: 0.96662}
+  m_LocalRotation: {x: 0.25621423, y: 1.1858948e-16, z: 2.2077277e-17, w: 0.96662}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -45235,8 +45225,8 @@ GameObject:
   - component: {fileID: 1368433591}
   - component: {fileID: 1368433590}
   - component: {fileID: 1368433589}
-  - component: {fileID: 1368433588}
   - component: {fileID: 1368433593}
+  - component: {fileID: 1368433588}
   m_Layer: 0
   m_Name: Spaceship Part 4
   m_TagString: Collectable
@@ -51892,7 +51882,6 @@ GameObject:
   - component: {fileID: 1539333813}
   - component: {fileID: 1539333815}
   - component: {fileID: 1539333814}
-  - component: {fileID: 1539333816}
   m_Layer: 5
   m_Name: PartsCollectedText
   m_TagString: Untagged
@@ -51961,18 +51950,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539333812}
   m_CullTransparentMesh: 0
---- !u!114 &1539333816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1539333812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 827bcaba7a594264b97391ba662ff3eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1541764426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53223,7 +53200,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586426536}
-  m_LocalRotation: {x: 0.24483503, y: -0.000000017337173, z: 0.0000000043779926, w: 0.96956474}
+  m_LocalRotation: {x: 0.24483505, y: 0.000000017337173, z: -0.000000004377993, w: 0.96956474}
   m_LocalPosition: {x: 54.1, y: 4.811657, z: -37.545773}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

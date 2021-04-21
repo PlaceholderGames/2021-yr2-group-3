@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectPart : MonoBehaviour
+public class collectPartLevelOne : MonoBehaviour
 {
     public int collectableAmount = 1;
 
@@ -10,7 +10,7 @@ public class CollectPart : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            CollectableSystem.instance.ChangeAmount(collectableAmount);
+            LevelOneCollectableSystem.instance.ChangeAmount(collectableAmount);
         }
     }
 }
