@@ -5165,7 +5165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectableAmount: 1
 --- !u!65 &230130581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9262,7 +9261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectableAmount: 1
 --- !u!65 &449713578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11522,7 +11520,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3567cc771cbf3164ba29e0e0279ce480, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b1c922ad76f856043b677aac88367583, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.105
   m_Pitch: 1
@@ -11620,7 +11618,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 203
+  m_RootOrder: 202
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &533256898
 PrefabInstance:
@@ -22228,7 +22226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectableAmount: 1
 --- !u!65 &1012044786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49116,7 +49113,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectableAmount: 1
 --- !u!65 &2058344715
 BoxCollider:
   m_ObjectHideFlags: 0
