@@ -11,6 +11,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public CharacterController controller;
     public Transform cam;
     private bool groundedPlayer = true;
+    private AudioSource source;
     public float speed = 6f;
     public float pushPower = 2.0f; //push power for moving blocks
     private float playerSpeed = 2.0f;
@@ -28,6 +29,10 @@ public class ThirdPersonMovement : MonoBehaviour
     public GameObject RightHand;
 
     void Start() {
+
+   
+        source = GetComponent<AudioSource>();
+        this.source.playOnAwake = false;
 
         inventory.ItemUsed += Inventory_ItemUsed;
         inventory.ItemRemoved += Inventory_ItemRemoved;
@@ -110,7 +115,6 @@ public class ThirdPersonMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (mItemToPickup != null && Input.GetKeyDown(KeyCode.E))
         {
             inventory.AddItem(mItemToPickup);
@@ -141,6 +145,9 @@ public class ThirdPersonMovement : MonoBehaviour
             playerVelocity.y = 0;
 
             playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
+
+            source.Play();
+
         }
 
         if (groundedPlayer == false)
@@ -151,6 +158,7 @@ public class ThirdPersonMovement : MonoBehaviour
 
 
         controller.Move(playerVelocity * Time.deltaTime);
+        source.Play();
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
