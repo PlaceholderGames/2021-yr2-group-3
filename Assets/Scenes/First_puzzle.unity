@@ -5165,7 +5165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectableAmount: 1
 --- !u!65 &230130581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9262,7 +9261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectableAmount: 1
 --- !u!65 &449713578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11620,7 +11618,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 203
+  m_RootOrder: 202
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &533256898
 PrefabInstance:
@@ -22228,7 +22226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectableAmount: 1
 --- !u!65 &1012044786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31665,6 +31662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb27b6a7b08c3c841a58277f842da3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  isPressed: 0
 --- !u!65 &1374103498
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39233,7 +39232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab0baf6ca7131146966610bf66d2041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
+  index: 3
   collectableSystem: {fileID: 1310063998}
 --- !u!65 &1667699181
 BoxCollider:
@@ -42145,6 +42144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4892506b6e9f27429c236c1aa036bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  plateThree: {fileID: 0}
 --- !u!65 &1775653782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49116,7 +49116,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectableAmount: 1
 --- !u!65 &2058344715
 BoxCollider:
   m_ObjectHideFlags: 0
