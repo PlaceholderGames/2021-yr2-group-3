@@ -813,7 +813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isNewGame: 1
-  isSettings: 0
+  isCredits: 0
   isQuit: 0
 --- !u!65 &1341708244
 BoxCollider:
@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 1704294625}
   - component: {fileID: 1704294626}
   m_Layer: 0
-  m_Name: SettingsButton
+  m_Name: CreditsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -868,7 +868,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settings
+  m_text: Credits
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isNewGame: 0
-  isSettings: 1
+  isCredits: 1
   isQuit: 0
 --- !u!65 &1704294626
 BoxCollider:
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isNewGame: 0
-  isSettings: 0
+  isCredits: 0
   isQuit: 1
 --- !u!65 &1912732270
 BoxCollider:
