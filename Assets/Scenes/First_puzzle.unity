@@ -5144,8 +5144,8 @@ GameObject:
   - component: {fileID: 230130583}
   - component: {fileID: 230130582}
   - component: {fileID: 230130581}
-  - component: {fileID: 230130580}
   - component: {fileID: 230130585}
+  - component: {fileID: 230130580}
   m_Layer: 0
   m_Name: Spaceship Part 9
   m_TagString: Untagged
@@ -5162,9 +5162,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 230130579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
+  m_Script: {fileID: 11500000, guid: 59550f4f572fa9c4880a1605ce4e283a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableAmount: 1
 --- !u!65 &230130581
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9356,8 +9357,8 @@ GameObject:
   - component: {fileID: 449713580}
   - component: {fileID: 449713579}
   - component: {fileID: 449713578}
-  - component: {fileID: 449713577}
   - component: {fileID: 449713582}
+  - component: {fileID: 449713577}
   m_Layer: 0
   m_Name: Spaceship Part 6
   m_TagString: Untagged
@@ -9374,9 +9375,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 449713576}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
+  m_Script: {fileID: 11500000, guid: 59550f4f572fa9c4880a1605ce4e283a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableAmount: 1
 --- !u!65 &449713578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13380,7 +13382,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589536493}
-  m_LocalRotation: {x: 0.20176448, y: -0.000000018841684, z: 0.000000003881407, w: 0.9794341}
+  m_LocalRotation: {x: 0.20176448, y: 0.000000018841686, z: -0.0000000038814076, w: 0.9794341}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -22853,8 +22855,8 @@ GameObject:
   - component: {fileID: 1012044788}
   - component: {fileID: 1012044787}
   - component: {fileID: 1012044786}
-  - component: {fileID: 1012044785}
   - component: {fileID: 1012044790}
+  - component: {fileID: 1012044785}
   m_Layer: 0
   m_Name: Spaceship Part 7
   m_TagString: Untagged
@@ -22871,9 +22873,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1012044784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
+  m_Script: {fileID: 11500000, guid: 59550f4f572fa9c4880a1605ce4e283a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableAmount: 1
 --- !u!65 &1012044786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42876,7 +42879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -604.2, y: 304}
+  m_AnchoredPosition: {x: -587.3, y: 304}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1769774082
@@ -50150,8 +50153,8 @@ GameObject:
   - component: {fileID: 2058344717}
   - component: {fileID: 2058344716}
   - component: {fileID: 2058344715}
-  - component: {fileID: 2058344714}
   - component: {fileID: 2058344719}
+  - component: {fileID: 2058344714}
   m_Layer: 0
   m_Name: Spaceship Part 8
   m_TagString: Untagged
@@ -50168,9 +50171,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2058344713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
+  m_Script: {fileID: 11500000, guid: 59550f4f572fa9c4880a1605ce4e283a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectableAmount: 1
 --- !u!65 &2058344715
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52188,11 +52192,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3350179761168609101, guid: 91af31503368a1442ae66dd6d89d2b43, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000150189
+      value: 0.0000000150189
       objectReference: {fileID: 0}
     - target: {fileID: 3350179761168609101, guid: 91af31503368a1442ae66dd6d89d2b43, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003358596
+      value: -0.000000003358596
       objectReference: {fileID: 0}
     - target: {fileID: 3350179761168609101, guid: 91af31503368a1442ae66dd6d89d2b43, type: 3}
       propertyPath: m_LocalRotation.w
