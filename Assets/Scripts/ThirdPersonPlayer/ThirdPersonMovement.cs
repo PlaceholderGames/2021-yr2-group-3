@@ -10,6 +10,7 @@ public class ThirdPersonMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Transform cam;
+    public GameObject DeathPlane;
     private bool groundedPlayer = true;
     private AudioSource source;
     public float speed = 6f;
@@ -59,6 +60,14 @@ public class ThirdPersonMovement : MonoBehaviour
 
         goItem.transform.position = RightHand.transform.position;
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject == DeathPlane)
+        {
+            transform.position = new Vector3(-116, -1, 129);
+        }
     }
 
     private IInventoryItem mItemToPickup = null;
@@ -115,6 +124,11 @@ public class ThirdPersonMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (controller.transform.position.y <= -15)
+        {
+            transform.position = new Vector3(-116, -1, 129);
+        }
+
         if (mItemToPickup != null && Input.GetKeyDown(KeyCode.E))
         {
             inventory.AddItem(mItemToPickup);
