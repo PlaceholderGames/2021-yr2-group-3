@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 37109143}
   - component: {fileID: 37109142}
   - component: {fileID: 37109145}
+  - component: {fileID: 37109146}
   m_Layer: 0
   m_Name: Text (TMP) (2)
   m_TagString: Untagged
@@ -310,6 +311,19 @@ MonoBehaviour:
   isCredits: 0
   isNextPage: 1
   isLastPage: 0
+--- !u!65 &37109146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37109141}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.815773, y: 5.8081, z: 0}
+  m_Center: {x: -3.4078865, y: -0.97718745, z: 0}
 --- !u!1 &232306118
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +851,7 @@ GameObject:
   - component: {fileID: 1598761160}
   - component: {fileID: 1598761159}
   - component: {fileID: 1598761162}
+  - component: {fileID: 1598761163}
   m_Layer: 0
   m_Name: Text (TMP) (3)
   m_TagString: Untagged
@@ -1012,6 +1027,19 @@ MonoBehaviour:
   isCredits: 0
   isNextPage: 0
   isLastPage: 1
+--- !u!65 &1598761163
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598761158}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.815773, y: 5.8081, z: 0}
+  m_Center: {x: -3.4078865, y: -0.97718745, z: 0}
 --- !u!1 &1635266832
 GameObject:
   m_ObjectHideFlags: 0

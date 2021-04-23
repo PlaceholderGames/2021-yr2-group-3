@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 694750903}
   - component: {fileID: 694750902}
   - component: {fileID: 694750905}
+  - component: {fileID: 694750906}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -398,9 +399,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 4
+  indexTwo: 0
   isCredits: 1
   isNextPage: 0
   isLastPage: 0
+--- !u!65 &694750906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694750901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.239534, y: 2.741861, z: 0}
+  m_Center: {x: -4.2651167, y: 0.5177599, z: 0}
 --- !u!1 &753638757
 GameObject:
   m_ObjectHideFlags: 0
