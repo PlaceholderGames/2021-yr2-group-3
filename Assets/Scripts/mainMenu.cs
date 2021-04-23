@@ -6,7 +6,7 @@ using UnityEngine;
 public class mainMenu : MonoBehaviour
 {
     public bool isNewGame;
-    public bool isSettings;
+    public bool isCredits;
     public bool isQuit;
 
     public void OnMouseUp()
@@ -15,7 +15,7 @@ public class mainMenu : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
-        else if (isSettings)
+        else if (isCredits)
         {
             SceneManager.LoadScene(5);
         }

@@ -7273,7 +7273,6 @@ GameObject:
   - component: {fileID: 164077089}
   - component: {fileID: 164077088}
   - component: {fileID: 164077087}
-  - component: {fileID: 164077086}
   - component: {fileID: 164077091}
   - component: {fileID: 164077092}
   m_Layer: 0
@@ -7283,18 +7282,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &164077086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164077085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &164077087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58390,7 +58377,6 @@ GameObject:
   - component: {fileID: 1339247904}
   - component: {fileID: 1339247903}
   - component: {fileID: 1339247902}
-  - component: {fileID: 1339247901}
   - component: {fileID: 1339247906}
   - component: {fileID: 1339247907}
   m_Layer: 0
@@ -58400,18 +58386,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1339247901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339247900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1339247902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60073,7 +60047,6 @@ GameObject:
   - component: {fileID: 1368433590}
   - component: {fileID: 1368433589}
   - component: {fileID: 1368433593}
-  - component: {fileID: 1368433588}
   - component: {fileID: 1368433594}
   m_Layer: 0
   m_Name: Spaceship Part 4
@@ -60082,18 +60055,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1368433588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1368433587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1368433589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75803,7 +75764,6 @@ GameObject:
   - component: {fileID: 1715459952}
   - component: {fileID: 1715459951}
   - component: {fileID: 1715459950}
-  - component: {fileID: 1715459949}
   - component: {fileID: 1715459954}
   - component: {fileID: 1715459955}
   m_Layer: 0
@@ -75813,18 +75773,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1715459949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715459948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887b7fc6d4d92cf4f99fe24c68b9a16c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1715459950
 BoxCollider:
   m_ObjectHideFlags: 0
