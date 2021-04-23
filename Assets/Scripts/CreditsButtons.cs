@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class CreditsButtons : MonoBehaviour
 {
     public int index;
+    public int indexTwo;
     public bool isCredits;
     public bool isNextPage;
     public bool isLastPage;
@@ -22,7 +23,7 @@ public class CreditsButtons : MonoBehaviour
         }
         else if (isLastPage)
         {
-            SceneManager.LoadScene(index);
+            SceneManager.LoadScene(indexTwo);
         }
     }
 
