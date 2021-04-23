@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class ThirdPersonMovement : MonoBehaviour
@@ -162,6 +163,11 @@ public class ThirdPersonMovement : MonoBehaviour
 
             source.Play();
 
+        }
+
+        if (Input.GetKeyDown("K"))
+        {
+            SceneManager.LoadScene(2);
         }
 
         if (groundedPlayer == false)
