@@ -165,11 +165,6 @@ public class ThirdPersonMovement : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown("K"))
-        {
-            SceneManager.LoadScene(2);
-        }
-
         if (groundedPlayer == false)
         {
             playerVelocity.y += gravityValue * Time.deltaTime;
